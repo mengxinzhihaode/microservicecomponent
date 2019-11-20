@@ -1,0 +1,5 @@
+com\micro\msaframework\registry\ServiceRegistry.class
+com\micro\msaframework\MsaFrameworkApplication.class
+com\micro\msaframework\registry\registryimpl\ServiceRegistryImpl.class
+META-INF\spring-configuration-metadata.json
+com\micro\msaframework\registry\RegistryConfig.class

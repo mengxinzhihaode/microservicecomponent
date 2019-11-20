@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: api,framework
+server:
+  context-path: /msa-sample-api
+  port: 8088
+  address: 127.0.0.1
+logging:
+  level:
+    root: info

@@ -1,0 +1,11 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.micro.msaframework.registry.RegistryConfig",
+      "name": "registry",
+      "type": "com.micro.msaframework.registry.RegistryConfig"
+    }
+  ],
+  "properties": []
+}

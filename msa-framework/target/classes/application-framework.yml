@@ -1,0 +1,8 @@
+server:
+  context-path: /msa-framework
+  port: 8080
+registry:
+  servers: 192.168.118.116:2181
+msa:
+  path: /registry
+  timeout: 10000
