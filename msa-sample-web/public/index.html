@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+</head>
+<body>
+<div id="console">result: </div>
+<script src="javascripts/jquery.min.js"></script>
+<script>
+$(function () {
+    $.ajax({
+       method: 'GET',
+       url: '/msa-sample-api/hello',
+        headers: {
+           'Service-Name': 'HelloService'
+        },
+        success: function (data) {
+            $('#console').append(data+", time:"+ new Date());
+        }
+    });
+});
+</script>
+</body>
+</html>
